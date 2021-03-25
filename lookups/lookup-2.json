@@ -1,0 +1,95 @@
+{
+    "$schema": "../lookup-schema.json",
+    "enabled": false,
+    "processingPipeline": [
+        {
+            "name": "google-play-processor",
+            "enabled": true
+        },
+        {
+            "name": "apple-appstore-processor",
+            "enabled": false
+        },
+        {
+            "name": "video-data-processor",
+            "enabled": false
+        },
+        {
+            "name": "date-processor",
+            "enabled": true,
+            "useDefaultJSParser": true,
+            "dateRegex": "(.*) (.*), (.*)",
+            "dateSequence": "day,month,year"
+        }
+    ],
+    "lookup": [
+        {
+            "rawDataColumn": "Transaction Date",
+            "adobeAnalyticsHeader": "Date",
+            "default": ""
+        },
+        {
+            "rawDataColumn": "Application ID",
+            "adobeAnalyticsHeader": "Evar 1",
+            "default": "SAMPLE_APP_ID"
+        },
+        {
+            "rawDataColumn": "Description",
+            "adobeAnalyticsHeader": "Evar 34",
+            "default": ""
+        },
+        {
+            "rawDataColumn": "Sku Id",
+            "adobeAnalyticsHeader": "Product",
+            "default": "Education"
+        },
+        {
+            "rawDataColumn": "User ID",
+            "adobeAnalyticsHeader": "Evar 36",
+            "default": ""
+        },
+        {
+            "rawDataColumn": "Media Name",
+            "adobeAnalyticsHeader": "Evar 21",
+            "default": "Mobile"
+        },
+        {
+            "rawDataColumn": "Platform",
+            "adobeAnalyticsHeader": "Evar 37",
+            "default": "Google Play Store"
+        },
+        {
+            "rawDataColumn": "Orders",
+            "adobeAnalyticsHeader": "Orders",
+            "default": 0
+        },
+        {
+            "rawDataColumn": "Units",
+            "adobeAnalyticsHeader": "Quantity",
+            "default": 0
+        },
+        {
+            "rawDataColumn": "Amount (Buyer Currency)",
+            "adobeAnalyticsHeader": "Price",
+            "default": 0
+        },
+        {
+            "rawDataColumn": "Total Revenue",
+            "adobeAnalyticsHeader": "Event 1",
+            "default": 0
+        },
+        {
+            "rawDataColumn": "User Acquisition Cost",
+            "adobeAnalyticsHeader": "Event 2",
+            "default": 0
+        },
+        {
+            "rawDataColumn": "User Lifetime Value",
+            "adobeAnalyticsHeader": "Event 3",
+            "default": 0
+        }
+    ],
+    "meta": {
+        "type": "someclient-purchase"
+    }
+}

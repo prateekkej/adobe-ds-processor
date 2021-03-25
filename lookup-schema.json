@@ -1,0 +1,70 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "description": "Lookup File schema for data source automator",
+    "properties": {
+        "processingPipeline": {
+            "type": "array",
+            "items": [
+                {
+                    "type": "object",
+                    "properties": {
+                        "name": {
+                            "type": "string",
+                            "description": "This field should have the processor function name"
+                        }
+                    },
+                    "required": [
+                        "name"
+                    ],
+                    "additionalProperties": true
+                }
+            ]
+        },
+        "lookup": {
+            "type": "array",
+            "items": [
+                {
+                    "type": "object",
+                    "properties": {
+                        "rawDataColumn": {
+                            "type": "string",
+                            "description": "This field should have the header according to the column in data file."
+                        },
+                        "adobeAnalyticsHeader": {
+                            "type": "string",
+                            "description": "This field should have the header for the corresponding Evar or Event of Adobe Analytics"
+                        },
+                        "default": {
+                            "type": "string",
+                            "description": "This field should have the default value of this field."
+                        }
+                    },
+                    "required": [
+                        "rawDataColumn",
+                        "adobeAnalyticsHeader",
+                        "default"
+                    ]
+                }
+            ]
+        },
+        "meta": {
+            "type": "object",
+            "description": "Contains meta data for the lookup. Used by script to identify the lookup ID.",
+            "properties": {
+                "type": {
+                    "type": "string",
+                    "description": "This field should have the Lookup Id. Value in this field will be used to identify the data files, FTP Uploads and output files."
+                }
+            },
+            "required": [
+                "type"
+            ]
+        }
+    },
+    "required": [
+        "lookup",
+        "meta"
+    ],
+    "additionalProperties": true
+}

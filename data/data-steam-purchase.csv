@@ -1,0 +1,13 @@
+Date, Bundle(ID#),Bundle Name,Product(ID#),Product Name,Type,Game,Platform,Country Code,Country,Region,Gross Units Sold,Chargeback/Returns,Net Units Sold,Base Price,Sale Price,Currency,Gross Steam Sales (USD),Chargeback/Returns (USD),VAT/Tax (USD),Net Steam Sales (USD),Tag
+03-09-2020,-1,Direct Package Sale,XXXX_XXX,Spinch,Steam,Spinch,Windows,AR,Argentina,Latin America,22,0,22,179.99,120.59,ARS,35.6034,0,0,35.6034,
+03-09-2020,-1,Direct Package Sale,XXXX_XXX,Spinch,Steam,Spinch,Windows,AT,Austria,Western Europe,4,0,4,12.49,8.36,EUR,39.5202,0,-6.5709,32.9493,
+03-09-2020,-1,Direct Package Sale,XXXX_XXX,Spinch,Retail,Spinch,Windows,AU,Australia,Oceania,1,0,1,0,0,USD,0,0,0,0,Humble Store
+03-09-2020,-1,Direct Package Sale,XXXX_XXX,Spinch,Steam,Spinch,Windows,AU,Australia,Oceania,9,0,9,21.5,14.4,AUD,94.3931,0,-8.587,85.8061,
+03-09-2020,-1,Direct Package Sale,XXXX_XXX,Spinch,Retail,Spinch,Windows,BA,Bosnia And Herzegowina,Eastern Europe,1,0,1,0,0,USD,0,0,0,0,Humble Store
+03-09-2020,-1,Direct Package Sale,XXXX_XXX,Spinch,Steam,Spinch,Windows,BR,Brazil,Latin America,17,0,17,28.99,19.42,BRL,61.9161,0,0,61.9161,
+03-09-2020,-1,Direct Package Sale,XXXX_XXX,Spinch,Retail,Spinch,Windows,CA,Canada,North America,2,0,2,0,0,USD,0,0,0,0,Green Man Gaming
+03-09-2020,-1,Direct Package Sale,XXXX_XXX,Spinch,Steam,Spinch,Windows,CA,Canada,North America,59,4,55,17.49,11.71,CAD,534.1191,35.76,-8.0082,490.3509,
+03-09-2020,-1,Direct Package Sale,XXXX_XXX,Spinch,Steam,Spinch,Windows,CH,Switzerland,Western Europe,2,0,2,15.5,10.38,CHF,22.69,0,-1.6176,21.0724,
+03-09-2020,-1,Direct Package Sale,XXXX_XXX,Spinch,Steam,Spinch,Windows,CL,Chile,Latin America,3,0,3,6400,4288,CLP,16.69,0,-2.6662,14.0238,
+03-09-2020,-1,Direct Package Sale,XXXX_XXX,Spinch,Steam,Spinch,Windows,CN,China,Asia,19,3,16,50,33,CNY,91.5928,14.46,0,77.1328,
+03-09-2020,-1,Direct Package Sale,XXXX_XXX,Spinch,Steam,Spinch,Windows,CO,Colombia,Latin America,2,0,2,25000,16750,COP,9.1719,0,-1.4643,7.7076,
